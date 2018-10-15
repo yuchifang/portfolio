@@ -1,0 +1,56 @@
+$gutter-vertical: 8rem;//margin-bottom
+$gutter-horizontal: 1rem;//間格
+
+$color_text:rgb(102, 102, 102);
+$color_text_dark:rgb(49, 49, 49);
+$color_yellow:rgb(224, 183, 0);
+$dark_blue:rgb(50, 63, 255);
+$light_blue: rgb(51, 180, 255);
+.resume{
+  height:40vh;
+  margin-top:10vh;
+  background-image:linear-gradient(
+    to right bottom,
+    rgba($light_blue, 0.8), 
+    rgba($dark_blue, 0.8)), 
+    url('./nat-1-large.jpg');
+  background-size: cover;
+  background-position: top;
+  position: relative;
+  clip-path:polygon(0 10vh,100% 0,100% 30vh,0 100%);
+  &_text{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+  &_heading{
+    color: $color_yellow;
+    font-size:8vh;
+    text-transform: uppercase;
+    font-weight:700;
+    text-align:center;
+    margin-top:10vh;
+    letter-spacing: 20px;
+  }
+}
+.head{
+  margin-top: 5vh;
+  color:$color_text;
+  font-size:7vh;
+}
+.data{
+  color:$color_text;
+  font-size:5vh;
+  list-style:none;
+  
+  & span{
+    font-size:3vh;
+    color:$color_text_dark;
+  }
+  & a{
+    color:$dark_blue;
+    font-size:3vh;
+  }
+}
+

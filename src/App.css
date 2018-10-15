@@ -1,32 +1,25 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+*{
+  margin: 0;
+  padding: 0;
+  font-size: 62.5%;
+  /*defines what 1rem is*/
+  box-sizing: inherit;
+  /* border:solid 0.5px black; */
+  
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/*box-sizing: border-box 將margin 內縮*/
+.element {
+  /* height:1000px; */
+  font-family: "Lato",sans-serif,"微軟正黑體";
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 1.7;
+  color: rgb(224, 183, 0);
+  padding: 20px;
+  box-sizing: border-box;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+/*vh 可視範圍*/
+/*background-size: cover 背景圖放大至內容的大小*/
+/*linear-gradient顏色漸成(0.8)透明度*/
+/*clip-path 幾個角 幾個x y */

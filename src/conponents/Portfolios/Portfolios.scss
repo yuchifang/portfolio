@@ -1,0 +1,47 @@
+$gutter-vertical: 8rem;//margin-bottom
+$gutter-horizontal: 1rem;//間格
+
+$color_text:rgb(102, 102, 102);
+$color_yellow:rgb(224, 183, 0);
+$dark_blue:rgb(50, 63, 255);
+$light_blue: rgb(51, 180, 255);
+.portfolio{
+  text-align: center;
+
+}
+.portfolio_heading{
+  
+  //padding-top: 10vh;
+  color: $dark_blue;
+  font-size:8vh;
+  text-transform: uppercase;
+  font-weight:700;
+  text-align:center;
+  margin-top:-10vh
+}
+.portfolio_title{
+  text-align:left;
+  font-size:5vh;
+  color: $light_blue;
+  margin:5vh 0;
+}
+.img{ 
+  
+  width:80%;
+  
+}
+.link{
+  color:$color_text;
+  font-size:4vh;
+  text-align:center;
+}
+.linka{
+  font-size:2.5vh;
+  color:$dark_blue;
+}
+.intro{
+  text-align:left;
+  text-indent:1em;
+  color:$color_text;
+  font-size:5vh;
+}
